@@ -1,0 +1,14 @@
+#postage-calculator input[type=submit] {
+	background: #3CF;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+}
+
+#postage-calculator form {
+	display: inline-block;
+}
+
+#postage-calculator div {
+	display: inline-block;
+}
