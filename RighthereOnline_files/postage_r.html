@@ -1,0 +1,106 @@
+
+<!-- saved from url=(0061)http://www.foaus.com/item/postage/postage_r.php?xls=8003.xlsx -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">
+    <!--
+    #querybox{
+        margin:auto;
+        width:260px;
+        color:#444;
+    }
+    #submitBtn{
+        width:70px;
+		height:25px;
+		margin-left:10px;
+		font-size:14px;
+		font-family:Tahoma, Geneva, sans-serif;
+		color:#FFF;
+		background:#3CF;
+		border:none;
+		border-radius:5px;
+    }
+	#submitBtn:hover {
+		color:#666
+	}
+	#submitBtn:active {
+		color:#333;
+	}
+    #querybox h2{
+        text-align:center;
+        color:#06C;
+        font-weight: bolder;
+    }
+    #box{
+        width:260px;
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:16px;
+		padding:5px;
+    }
+    #box B{
+        color:#000;
+    }
+    #area{
+        margin-top:40px;
+        height:120px;
+    }
+    B{
+        margin:20px 10px;
+    }
+    #cost{
+        background:#F30;
+        background-repeat:repeat;
+        padding:8px;
+        border-style:solid;
+		color:#FFF;
+        border-width:1px;
+    }
+    
+	#inputcode {
+		width:80px;
+	height:28px;
+	padding:3px;
+	margin-top:5px;
+	margin-left:0px;
+	margin-bottom:5px;
+	font-size:16px;
+	font-family:Tahoma, Geneva, sans-serif;
+	text-align:center;
+	}
+	.selectsub {
+		font-size:12px;
+	}
+	#selectSubrub {
+		font-size:14px;
+		font-family:Tahoma, Geneva, sans-serif;
+	}
+    -->
+</style>
+<script language="javascript">
+    function mySwitch(){
+        var index=document.getElementById("selectSubrub").value;
+        var count=document.getElementById("selectSubrub").length;
+        for (var i=0;i<count;i++)
+        {
+            if(i==index)
+            {
+                document.getElementById(i).style.display = 'block';
+            }
+            else
+            {
+                document.getElementById(i).style.display = 'none';
+            }
+        }
+    }
+</script>
+    <style type="text/css"></style><style type="text/css"></style><link rel="stylesheet" type="text/css" href="chrome-extension://pkehgijcmpdhfbdbbnkijodmdjhbjlgp/skin/socialwidgets.css"></head><body><div id="box">
+        <div id="code">
+            <form method="POST">
+                <div>Post Code&nbsp;<input type="text" id="inputcode" name="inputcode" value="" <="" input=""><input type="submit" value="SUBMIT" id="submitBtn"></div>
+            </form>
+        </div>
+
+                <div>To:&nbsp;</div>
+        <div id="cost">Postage:&nbsp;</div>
+    
+
+
+</div></body></html>
