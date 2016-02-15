@@ -362,6 +362,14 @@ $(function() {
 	color:#F00;
 	border-bottom:#F00 2px solid;
 }
+
+.postage_frame iframe {
+	margin: 10px 20px;
+	width: calc(100% - 60px);
+	height: 60px;
+	border: 10px solid #f00;
+	border-radius: 20px;
+}
 </style>
 <div class="postage_notice">
 <div style="padding-left:50px">
@@ -371,6 +379,9 @@ ENTER POST CODE AT "POSTAGE CALCULATOR" OR CONTACT US TO FIND POSTAGE.<br>
 <span>IF YOU HAVE ANY QUESTIONS, PLEASE EMAIL US BEFORE PLACING YOUR BID.</span>
 </div>
 </div><!-- #EndLibraryItem --><!--option 2-->
+<div class="postage_frame">
+  <iframe src="postage/postage.html?q=dynamic_pro"></iframe>
+</div>
   
   
   <!--option 3-->

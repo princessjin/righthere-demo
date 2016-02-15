@@ -23,6 +23,8 @@ function xhr(o) {
 
 (function() {
   var g_data, g_code, g_options;
+  var g_item = window.location.search.substring(3);
+  var g_json_file = g_item + ".json";
 
   var template = ' \
         <form onsubmit="return onSubmitPostageCode();"> \
@@ -54,7 +56,7 @@ function xhr(o) {
 
   xhr({
     method: "GET",
-    url: "8003.json",
+    url: g_json_file,
     callback: _callback
   });
 
