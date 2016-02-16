@@ -36,6 +36,9 @@ function xhr(o) {
         </form> \
   \
         <div class="select"></div> \
+  \
+        <div class="result"> \
+        </div> \
   ';
 
   var selectTemplate = ' \
@@ -45,8 +48,6 @@ function xhr(o) {
             </select> \
         </form> \
   \
-        <div class="result"> \
-        </div> \
   ';
 
   function _callback(xhr) {
@@ -62,9 +63,16 @@ function xhr(o) {
 
   function setCode(code) {
     var options = ['<option value="0">Please select suburb</option>'];
+    $("#postage-calculator .select").innerHTML = "";
+    $("#postage-calculator .result").innerHTML = "";
     g_code = code;
     g_options = g_data[code];
     if (!g_options) {
+      return;
+    }
+    if (typeof g_options === "string") {
+      var s = "Postage for " + g_code + ": " + g_options;
+      $("#postage-calculator .result").innerHTML = s;
       return;
     }
     var keys = Object.keys(g_options);
