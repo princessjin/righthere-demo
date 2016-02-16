@@ -121,8 +121,9 @@
 .function h2 {
 	background:url(http://www.foaus.com/item/images/tag_menu.png) no-repeat;
 	background-position:2px 5px;
+        padding-top:87px;
 	padding-left:20px;
-	font-size:18px;
+	font-size:20px;
 	color:#39C;
 	font-family:Tahoma, Geneva, sans-serif;
 	font-weight:600;
@@ -131,9 +132,9 @@
 	list-style-image:url(http://www.foaus.com/item/images/tag_function1.png);
 	padding-left:25px;
 	padding-right:5px;
-	font-size:15px;
+	font-size:20px;
 	font-family:Verdana, Geneva, sans-serif;
-	line-height:20px;
+	line-height:30px;
 }
 .list1 li {
 	list-style-image:url(http://www.foaus.com/item/images/tag_function1.png);
@@ -142,10 +143,10 @@
 }
 .list2, .list2 li {
 	list-style-image:url(http://www.foaus.com/item/images/tag_function2.png);
-	font-size:14px;
+	font-size:18px;
 	font-family:Verdana, Geneva, sans-serif;
 	color:#F60;
-	line-height:18px;
+	line-height:25px;
 }
 
 .tag_item1 {
