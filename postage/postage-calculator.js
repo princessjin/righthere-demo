@@ -71,7 +71,7 @@ function xhr(o) {
       return;
     }
     if (typeof g_options === "string") {
-      var s = "Postage for " + g_code + ": " + g_options;
+      var s = "<p>Postage for " + g_code + ": " + g_options + "</p>"
       $("#postage-calculator .result").innerHTML = s;
       return;
     }
@@ -96,7 +96,7 @@ function xhr(o) {
   window.onSelect = function(select) {
     if (g_options[select.value]) {
       var postage = g_options[select.value];
-      var s = "Postage for " + g_code + " " + select.value + ": " + postage;
+      var s = "<p>Postage for " + g_code + " " + select.value + ": " + postage + "</p>"
       $("#postage-calculator .result").innerHTML = s;
     } else {
       $("#postage-calculator .result").innerHTML = "";
