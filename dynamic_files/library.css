@@ -1,0 +1,648 @@
+#total {
+	width:100%;
+	background-color:#E2E2E2;
+	background-image:url(http://www.foaus.com/item/images/bg_list.png);
+	background-attachment:fixed;
+	background-position:center;
+}
+
+#main_table {
+	width:1140px;
+	margin:0 auto;
+	background:#FFF;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:16px;
+	padding-bottom:20px;
+}
+
+.clearall {
+	clear:both;
+	height:2px;
+}
+
+#item_menu {
+	width:1140px;
+	height:40px;
+	margin:0 auto;
+	padding-top:0;
+}
+#item_menu ul {
+	list-style:none;
+	width:98%;
+	padding-left:0;
+	height:40px;
+	margin:0 auto;
+}
+#item_menu ul li {
+	list-style:none;
+	float:left;
+	display:block;
+	width:20%;
+	height:32px;
+	line-height:32px;
+	text-align:center;
+	padding-top:8px;
+	background:#000;
+}
+
+#item_menu ul li a {
+	text-align:center;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:16px;
+	text-decoration:none;
+	color:#FFF;
+}
+
+#item_menu ul li a:hover {
+	color:#999;
+}
+
+/*导航下划线背景色*/
+.l1 {
+	border-bottom:#30b6c9 8px solid;
+}
+
+.l2 {
+	border-bottom:8px solid #0184cd;
+}
+.l3 {
+	border-bottom:8px solid #7cbc19;
+}
+.l4 {	
+	border-bottom:8px solid #ffbc00;
+}
+.l5 {
+	border-bottom:8px solid #f07502;
+}
+.l6 {
+	border-bottom:8px solid #d00110;
+}
+
+.post_note {
+	border-left:1px solid #CCC;
+	border-right:1px solid #CCC;
+	border-bottom:1px solid #CCC;
+	padding:0;
+	margin:0 auto;
+	background:#FFF;
+	width:1100px;
+	text-align:center;
+	border-radius:0 0 10px 10px;
+	-webkit-box-shadow:2px 1px 5px 0px #CCC;
+	-moz-box-shadow:2px 1px 5px 0px #CCC;
+	box-shadow:2px 1px 5px 0px #CCC;
+}
+
+#p1 {
+	width:1010px;
+	margin:10px auto;
+	border:1px solid #999;
+	border-radius:10px;
+}
+
+#right_postage {
+	position:relative;
+	width:335px;
+	float:right;
+	margin-right:15px;
+	text-align:left;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	color:#000;
+}
+
+.function {
+	border-bottom:2px dotted #666;
+	padding:5px;
+	margin-top:5px;
+	margin-bottom:10px;
+}
+
+.function h2 {
+	background:url(http://www.foaus.com/item/images/tag_menu.png) no-repeat;
+	background-position:2px 5px;
+        margin-top:87px;
+	padding-left:20px;
+	font-size:20px;
+	color:#39C;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-weight:600;
+}
+.list1 {
+	list-style-image:url(http://www.foaus.com/item/images/tag_function1.png);
+	padding-left:25px;
+	padding-right:5px;
+	font-size:20px;
+	font-family:Verdana, Geneva, sans-serif;
+	line-height:30px;
+}
+.list1 li {
+	list-style-image:url(http://www.foaus.com/item/images/tag_function1.png);
+	padding-top:1px;
+	padding-bottom:1px;
+}
+.list2, .list2 li {
+	list-style-image:url(http://www.foaus.com/item/images/tag_function2.png);
+	font-size:18px;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#F60;
+	line-height:25px;
+}
+
+.tag_item1 {
+	border-top:#F30 5px solid;
+	border-bottom:#F30 5px solid;
+	border-radius:40px;
+	text-align:center;
+	padding-bottom:10px;
+}
+
+.tag_item1 iframe {
+	margin-left:20px;
+	margin-bottom:0;
+	border:none;
+	width:100%;
+}
+
+.option {
+	padding-top:10px;
+	padding-bottom:10px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:22px;
+	color:#666;
+	font-weight:800;
+	text-align:center;
+}
+.pickup {
+	padding-top:20px;
+	padding-bottom:20px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:18px;
+	color:#F30;
+	font-weight:800;
+	text-align:center;
+}
+.pickup_d {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	text-align:center;
+	margin-bottom:10px;
+}
+
+#right_postage div a {
+	text-decoration:underline;
+	color:#F30;
+	font-style:italic;
+	font-weight:800;
+}
+
+#right_postage img {
+	border:1px solid #999;
+	margin-left:22px;
+	margin-top:20px;
+	margin-bottom:20px;
+	text-align:center;	
+	-webkit-box-shadow:2px 1px 5px 0px #CCC;
+	-moz-box-shadow:2px 1px 5px 0px #CCC;
+	box-shadow:2px 1px 5px 0px #CCC;
+}
+
+.piccase {
+	width:760px;
+	padding-top:20px;
+	margin-left:5px;
+	padding-right:15px;
+	margin-bottom:10px;
+}
+
+#photo_case {
+	text-align:center;
+	width:740px;
+	height:555px;
+	border:1px #666666 solid;
+	margin-left:10px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+/*产品细节缩略图*/
+.album_photo {
+	width:730px;
+	text-align:center;
+	padding-top:15px;
+	padding-bottom:15px;
+	margin-left:5px;
+}
+
+.album_photo ul {
+	list-style:none;
+	display:block;
+	width:710px;
+	margin:0 auto;
+}
+
+.album_photo ul li {
+	list-style:none;
+	display:block;
+	float:left;
+	padding:5px 8px;
+	border:none;
+}
+
+.album_photo ul li img {
+	width:80px;
+	border:1px solid #999;
+}
+
+.album_photo ul li:hover img {
+	text-decoration:none;
+	border:1px solid #F30;
+}
+.details_table {
+	background:#F8F8F8;
+	padding-bottom:5px;
+}
+
+/*栏目条*/
+.bar {
+	width:1070px;
+	background:url(http://www.foaus.com/item/images/tag_menu.png) no-repeat;
+	background-position:5px 10px;
+	border-top:#666 2px dotted;
+	border-radius:50px;
+	height:36px;
+	line-height:36px;
+	text-align:left;
+	padding-left:25px;
+	margin:20px 30px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:20px;
+	font-weight:600;
+	color:#333;
+}
+
+.ad_r {
+	margin-top:20px;
+	text-align:center;
+	padding:2px;
+	-webkit-box-shadow:2px 1px 5px 0px #CCC;
+	-moz-box-shadow:2px 1px 5px 0px #CCC;
+	box-shadow:2px 1px 5px 0px #CCC;
+}
+	
+	 
+
+.description {
+	border:none;
+}
+	
+	
+.top {
+	text-align:right;
+	margin-right:100px;
+}
+
+.top a {	
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	font-style:italic;
+	color:#333;
+	text-decoration:underline;
+}
+
+.top a:hover {
+	color:#666;
+}
+
+.warranty {
+	text-align:center;
+	font-size:22px;
+}
+
+.warranty span {
+	color:#F30;
+	font-size:32px;
+	font-weight:800;
+}
+
+.warranty a {
+	font-size:14px;
+	color:#333;
+	text-decoration:underline;
+	text-align:right;
+	margin-left:700px;
+}
+
+.referance {
+	width:1070px;
+	margin-left:50px;
+	margin-right:50px;
+}
+
+/*des css*/
+.des_part {
+	width:1100px;
+	margin:0 auto;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	text-align:left;
+	color:#000;
+}
+
+.des_title {
+	background-image:url(http://www.foaus.com/item/images/tag_menu.png);
+	background-repeat:no-repeat;
+	background-position:2px 0px;
+	padding-left:25px;
+	margin-top:10px;
+	margin-right:10px;
+	font-size:16px;
+	color:#6CF;
+	font-weight:800;
+}
+
+.dimension {
+	float:left;
+	margin-right:2%;
+	margin-top:0;
+	padding-left:1%;
+	width:38%;
+}
+.specification {
+	float:left;
+	margin-left:1%;
+	margin-top:0;
+	padding-left:1%;
+	width:53%;
+	border-right:2px #666666 dotted;
+}
+
+
+.dimension ul, .specification ul {
+	list-style:none;
+	margin:10px;
+	padding:0;
+	width:98%;	
+}
+.left_li, .right_li {
+	list-style:none;
+	padding-right:0;
+	float:left;	
+}
+.left_li {
+	display:block;
+	width:30%;
+}
+
+.right_li {
+	width:65%
+}
+.right_li ul, .left_li ul {
+	margin-left:0;
+	margin-right:0;
+	padding-left:0;
+	padding-right:0;
+}
+.left_li li {
+	color:#999;
+	text-align:right;
+	padding-right:0;
+	padding-left:2%;
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:14px;
+	border-bottom:1px dotted #666666;
+}
+.right_li li {
+	text-align:left;
+	color:#000;
+	padding-left:1%;
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:14px;
+	border-bottom:1px dotted #666666;
+}
+.r1, .r2 {
+	list-style:none;
+	float:left;
+	display:block;
+	margin-left:0;
+	margin-right:0;
+	width:35%;
+}
+
+.r1_title, .r2_title {
+	list-style:none;
+	color:#F60;
+	float:left;
+	display:block;
+}
+.r1_title ul, .r2_title ul {
+	margin-left:10px;
+	margin-right:0;
+}
+.r1 ul, .r2 ul {
+	margin-left:0;
+	margin-right:20px;
+}
+
+.r1 li, .r1_title li, .r2 li, .r2_title li {
+	height:30px;
+	line-height:30px;
+	font-size:12px;
+}
+.function_list, .function_list>li {
+	list-style-image:url(http://www.foaus.com/item/images/tag_function1.png);
+	color:#000
+}
+
+.function_list li, .function_listII li {
+	margin-left:7%;
+}
+
+.function_listII, .function_listII li {
+	list-style-image:url(http://www.foaus.com/item/images/tag_function2.png);
+	color:#F60;
+}
+
+.manual_des {
+	float:left; 
+	display:block; 
+	width:100px;
+	padding-top:100px;
+}
+
+.manual_img {
+	float:left;
+	border-left:5px solid #6CF;
+	border-radius:30px;
+	padding-left:10px;
+}
+
+
+/*shipnote*/
+#shipnote {
+	position:inherit;
+	width:1100px;
+	margin:0 auto;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	text-align:left;
+	height:550px;
+	color:#000;
+}
+
+#shipnote_table {
+	position:inherit;
+	float:right;
+	margin-right:20px;
+	margin-top:0;
+	padding-left:15px;
+	width:280px;
+	border-left:2px #666666 dotted;
+}
+
+.ship_title {
+	background-image:url(http://www.foaus.com/item/images/tag_menu.png);
+	background-repeat:no-repeat;
+	background-position:2px 0px;
+	padding-left:25px;
+	margin-top:10px;
+	font-size:16px;
+	color:#F30;
+	font-weight:800;
+}
+
+.column1, .column2 {
+	float:left;
+	text-align:center;
+	font-size:14px;
+	margin-left:0;
+	margin-right:0;
+}
+.column1 ul, .column2 ul, .column1 li, .column2 li {
+	list-style:none;
+	margin-left:0;
+	margin-right:0;
+}
+
+.column1 li, .column2 li {
+	padding-bottom:3px;
+	padding-top:3px;
+	border-left:1px solid #666;
+	border-top:1px solid #666;
+}
+
+.column1 ul{
+	border-bottom:1px solid #666;
+	padding:0;
+}
+.column2 ul {
+	border-right:1px solid #666;
+	border-bottom:1px solid #666;
+	padding:0;
+}
+
+.column1 {
+	width:100px;
+}
+.column2 {
+	width:180px;
+}
+
+
+.notice_list {
+	font-size:16px;
+	line-height:18px;
+	margin-right:350px;
+	border-left:5px #FF3300 solid;
+	border-radius:50px;
+	marg-left:20px;
+	padding-left:20px;
+}
+.notice_list ul {
+	list-style:none;
+	padding:0;
+	margin:20px;
+}
+.notice_list li {
+	list-style:disc;
+	line-height:20px;
+	padding-bottom:10px;
+}
+
+/*payment*/
+#paymentnote {
+	position:inherit;
+	width:1100px;
+	margin:0 auto;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	text-align:left;
+	height:380px;
+	color:#000;
+}
+.payment_list {
+	font-size:16px;
+	line-height:18px;
+	margin-right:30px;
+	border-left:5px #FF3300 solid;
+	border-radius:30px;
+	marg-left:30px;
+	padding-left:20px;
+}
+.payment_list ul {
+	list-style:none;
+	padding:0;
+	margin:20px;
+}
+.payment_list li {
+	list-style:disc;
+	line-height:20px;
+	padding-bottom:10px;
+}
+
+/*free postage*/
+.free_eparcel {
+	width:1100px;
+	margin:0 auto;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:16px;
+}
+.free_note {
+	font-weight:600;
+	padding:15px 20px;
+	text-align:left;
+	color:#F30;
+	border-bottom:1px dashed #666;
+}
+.eparcel_calculator {
+	width:280px;
+	float:left;
+	display:block;
+	margin-left:2%;
+	color:#000;
+}
+	
+.free_eparcel_table {
+	width:780px;
+	float:left;
+	color:#000;
+}
+
+.free_eparcel_table table {
+	width:90%;
+	margin-left:5%;
+	margin-top:20px;
+	border-bottom:1px dotted #666666;
+	border-right:1px dotted #666666;
+	border-collapse:collapse;
+}
+
+.free_eparcel_table td {
+	border-top:1px dotted #666666;
+	border-left:1px dotted #666666;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+}
